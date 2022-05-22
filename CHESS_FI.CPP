@@ -1385,9 +1385,9 @@ void main()
   outtextxy(150,225,"2. PLAY");
   outtextxy(150,300,"3. QUIT");
   choice=getch();
-  if(choice=='1')  //open file here and get array
+  if(choice=='1')  
    {
-    board();//isse pehle array le
+    board();
    }
   if(choice=='2')
    {reset();
